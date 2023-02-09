@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="add threadPool 实现异步点赞">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/mapper/BlogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/model/pojo/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="add Blog实体类并完善持久层">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/ThreadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/impl/ThreadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/mapper/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/mapper/BlogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/model/pojo/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/model/pojo/Blog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/web/BlogApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/web/BlogApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675945351436</updated>
-      <workItem from="1675945353772" duration="4705000" />
+      <workItem from="1675945353772" duration="5206000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675945827946</created>
@@ -108,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675948024761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Blog实体类并完善持久层">
+      <created>1675950237602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675950237602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <MESSAGE value="add threadPool 实现异步点赞" />
-    <option name="LAST_COMMIT_MESSAGE" value="add threadPool 实现异步点赞" />
+    <MESSAGE value="add Blog实体类并完善持久层" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Blog实体类并完善持久层" />
   </component>
 </project>
