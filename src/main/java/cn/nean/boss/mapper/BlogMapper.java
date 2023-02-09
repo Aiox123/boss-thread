@@ -11,4 +11,6 @@ public interface BlogMapper extends BaseMapper<Blog> {
     Blog queryBlogById(@Param("id") Long id);
 
     int updateCommentsById(@Param("id") Long id);
+
+    int updateCommentsById2(@Param("id") Long id);
 }

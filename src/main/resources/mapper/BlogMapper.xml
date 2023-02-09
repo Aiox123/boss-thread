@@ -9,6 +9,12 @@
         WHERE
             id = #{id}
     </update>
+    <update id="updateCommentsById2">
+        UPDATE blog
+        SET comments = comments + 100
+        WHERE
+            id = #{id}
+    </update>
 
     <select id="queryBlogById" resultType="cn.nean.boss.model.pojo.Blog">
         SELECT
