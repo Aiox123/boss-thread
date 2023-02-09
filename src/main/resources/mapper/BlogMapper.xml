@@ -8,10 +8,11 @@
         SET comments = comments + 1
         WHERE
             id = #{id}
+        AND comments = comments
     </update>
     <update id="updateCommentsById2">
         UPDATE blog
-        SET comments = comments + 100
+        SET comments = comments + 10
         WHERE
             id = #{id}
     </update>
