@@ -14,9 +14,10 @@ public class BlogApi {
     @Autowired
     ThreadService threadService;
 
-    @GetMapping("/query/{id}")
-    public String queryDetailsBlog(@PathVariable Long id){
-        threadService.updateBlogLikes(id);
-        return "文章ID" + id;
+    @GetMapping("/query")
+    public String queryDetailsBlog(){
+        long blogId = 1;
+        threadService.updateBlogLikes(blogId);
+        return "文章ID" + blogId;
     }
 }
