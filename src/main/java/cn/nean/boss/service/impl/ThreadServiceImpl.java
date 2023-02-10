@@ -1,5 +1,6 @@
 package cn.nean.boss.service.impl;
 
+import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONUtil;
 import cn.nean.boss.mapper.BlogMapper;
@@ -9,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
+
+import java.util.concurrent.TimeUnit;
 
 
 @Component
@@ -35,6 +38,21 @@ public class ThreadServiceImpl implements ThreadService {
         if(i > 0){
             log.info("文章ID: {} 浏览数量+1!", blogId);
         }
+    }
+
+    @Override
+    @Async("emailExecutor")
+    public void sendEmail(String email) {
+        // 生成验证码
+        int code = RandomUtil.randomInt(100000,999999);
+        try {
+            TimeUnit.SECONDS.sleep(2);
+            // 发送验证码到邮箱
+            log.info("验证码: {}",code);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        // 将验证码存入Redis
     }
 
     /*

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="Redis.increment(key); 存储blog 的浏览次数">
+    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="redisInc(blogId);存在线程安全风险">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/web/VipApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/config/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/config/ThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/ThreadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/ThreadService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/impl/ThreadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/impl/ThreadServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java/code/redis/redis_01"
+    "last_opened_file_path": "D:/Java/code/redis/redis_01",
+    "spring.configuration.checksum": "ceb8447cc4ab78d2ec34cd9f11e4bed2"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -90,7 +91,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675945351436</updated>
-      <workItem from="1675945353772" duration="10954000" />
+      <workItem from="1675945353772" duration="11221000" />
+      <workItem from="1675997390344" duration="1155000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675945827946</created>
@@ -134,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675954787366</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="redisInc(blogId);存在线程安全风险">
+      <created>1675956532037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675956532037</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +167,7 @@
     <MESSAGE value="删除ThreadService类改换为借口类型提高扩展性" />
     <MESSAGE value="add Redis 提高系统整体性能" />
     <MESSAGE value="Redis.increment(key); 存储blog 的浏览次数" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis.increment(key); 存储blog 的浏览次数" />
+    <MESSAGE value="redisInc(blogId);存在线程安全风险" />
+    <option name="LAST_COMMIT_MESSAGE" value="redisInc(blogId);存在线程安全风险" />
   </component>
 </project>
