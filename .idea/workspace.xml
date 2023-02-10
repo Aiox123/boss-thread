@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="add 开通Vip 服务线程池异步发送邮箱">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/model/common/RestResponse.java" afterDir="false" />
+    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="添加本地缓存 使用线程池异步更新缓存">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/config/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/config/ThreadPoolConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/mapper/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/mapper/BlogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/web/BlogApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/web/BlogApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675945351436</updated>
       <workItem from="1675945353772" duration="11221000" />
-      <workItem from="1675997390344" duration="5913000" />
+      <workItem from="1675997390344" duration="7268000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675945827946</created>
@@ -157,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675998821035</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加本地缓存 使用线程池异步更新缓存">
+      <created>1676008204871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676008204871</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +184,7 @@
     <MESSAGE value="Redis.increment(key); 存储blog 的浏览次数" />
     <MESSAGE value="redisInc(blogId);存在线程安全风险" />
     <MESSAGE value="add 开通Vip 服务线程池异步发送邮箱" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 开通Vip 服务线程池异步发送邮箱" />
+    <MESSAGE value="添加本地缓存 使用线程池异步更新缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加本地缓存 使用线程池异步更新缓存" />
   </component>
 </project>
