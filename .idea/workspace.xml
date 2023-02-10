@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="添加 nacos">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="nacos 配置信息完善">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/config/DynamicThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/BossApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/BossApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/MybatisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/MybatisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/mapper/BlogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/mapper/BlogMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/model/common/RestResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/model/common/RestResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/model/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/model/pojo/Blog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/service/ThreadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/service/ThreadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/service/impl/ThreadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/service/impl/ThreadServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/VipApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/VipApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675945351436</updated>
       <workItem from="1675945353772" duration="11221000" />
-      <workItem from="1675997390344" duration="8868000" />
+      <workItem from="1675997390344" duration="11105000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675945827946</created>
@@ -180,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676014851988</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="nacos 配置信息完善">
+      <created>1676016473887</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676016473887</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +206,7 @@
     <MESSAGE value="add 开通Vip 服务线程池异步发送邮箱" />
     <MESSAGE value="添加本地缓存 使用线程池异步更新缓存" />
     <MESSAGE value="添加 nacos" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 nacos" />
+    <MESSAGE value="nacos 配置信息完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="nacos 配置信息完善" />
   </component>
 </project>

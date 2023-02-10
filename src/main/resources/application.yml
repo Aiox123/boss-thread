@@ -1,17 +1,6 @@
-server:
-  # 端口号
-  port: 8088
 spring:
-  application:
-    name: boss-service
-  cloud:
-    nacos:
-      discovery:
-        namespace: public
-        server-addr: localhost:8848
-      config:
-        server-addr: localhost:8848
-        file-extension: yml
+  profiles:
+    active: dev
   # 数据库配置
   datasource:
     url: jdbc:mysql://localhost:3306/mall?characterEncoding=utf-8&serverTimezone=UTC
@@ -38,5 +27,3 @@ spring:
         max-idle: 5
         #最小空闲连接
         min-idle: 0
-
-#单机启动 nacos startup.cmd -m standalone

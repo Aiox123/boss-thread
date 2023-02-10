@@ -1,0 +1,14 @@
+server:
+  # 端口号
+  port: 8088
+spring:
+  application:
+    name: boss-service
+  cloud:
+    nacos:
+      discovery:
+        namespace: public
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
