@@ -3,7 +3,7 @@ server:
   port: 8088
 spring:
   application:
-    name: boss-service
+    name: mini-boss-service
   # 数据库配置
   datasource:
     url: jdbc:mysql://localhost:3306/mall?characterEncoding=utf-8&serverTimezone=UTC

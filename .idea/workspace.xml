@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="redisInc(blogId);存在线程安全风险">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/web/VipApi.java" afterDir="false" />
+    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="add 开通Vip 服务线程池异步发送邮箱">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/model/common/RestResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/config/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/config/ThreadPoolConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/ThreadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/ThreadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/impl/ThreadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/service/impl/ThreadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/mapper/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/mapper/BlogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nean/boss/web/BlogApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nean/boss/web/BlogApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +67,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="BossApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="boss" />
@@ -92,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675945351436</updated>
       <workItem from="1675945353772" duration="11221000" />
-      <workItem from="1675997390344" duration="1155000" />
+      <workItem from="1675997390344" duration="5913000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675945827946</created>
@@ -143,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675956532037</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add 开通Vip 服务线程池异步发送邮箱">
+      <created>1675998821035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675998821035</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +182,7 @@
     <MESSAGE value="add Redis 提高系统整体性能" />
     <MESSAGE value="Redis.increment(key); 存储blog 的浏览次数" />
     <MESSAGE value="redisInc(blogId);存在线程安全风险" />
-    <option name="LAST_COMMIT_MESSAGE" value="redisInc(blogId);存在线程安全风险" />
+    <MESSAGE value="add 开通Vip 服务线程池异步发送邮箱" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 开通Vip 服务线程池异步发送邮箱" />
   </component>
 </project>

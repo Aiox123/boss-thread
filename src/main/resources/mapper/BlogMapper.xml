@@ -25,4 +25,8 @@
         WHERE
             id = #{id}
     </select>
+
+    <select id="queryBlogs" resultType="cn.nean.boss.model.pojo.Blog">
+        SELECT * FROM `blog`
+    </select>
 </mapper>
