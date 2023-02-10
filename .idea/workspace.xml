@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="添加本地缓存 使用线程池异步更新缓存">
+    <list default="true" id="c9515d0a-dd97-49a3-8e6d-5259bba14d52" name="Changes" comment="添加 nacos">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/BossApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/BossApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/MybatisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/MybatisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/config/ThreadPoolConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/mapper/BlogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/mapper/BlogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/model/common/RestResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/model/common/RestResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/model/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/model/pojo/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/service/ThreadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/service/ThreadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/service/impl/ThreadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/service/impl/ThreadServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/BlogApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/VipApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/nean/boss/web/VipApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +64,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Java/code/redis/redis_01",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "ceb8447cc4ab78d2ec34cd9f11e4bed2"
   },
   "keyToStringList": {
@@ -93,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675945351436</updated>
       <workItem from="1675945353772" duration="11221000" />
-      <workItem from="1675997390344" duration="7268000" />
+      <workItem from="1675997390344" duration="8868000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675945827946</created>
@@ -158,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676008204871</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加 nacos">
+      <created>1676014851988</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676014851988</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +207,7 @@
     <MESSAGE value="redisInc(blogId);存在线程安全风险" />
     <MESSAGE value="add 开通Vip 服务线程池异步发送邮箱" />
     <MESSAGE value="添加本地缓存 使用线程池异步更新缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加本地缓存 使用线程池异步更新缓存" />
+    <MESSAGE value="添加 nacos" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 nacos" />
   </component>
 </project>
