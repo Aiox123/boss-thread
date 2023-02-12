@@ -57,7 +57,6 @@ public class DynamicThreadPool implements InitializingBean {
                     public Executor getExecutor() {
                         return null;
                     }
-
                     @Override
                     public void receiveConfigInfo(String configInfo) {
                         //配置变更，修改线程池配置
@@ -65,6 +64,30 @@ public class DynamicThreadPool implements InitializingBean {
                         changeThreadPoolConfig(Integer.parseInt(coreSize), Integer.parseInt(maxSize));
                     }
                 });
+    }
+
+    /*
+    *  业务模拟 ---- 续费 Vip
+    * */
+    public void renewVip(Long userId){
+        threadPoolExecutor.execute(()->{
+            try {
+                TimeUnit.SECONDS.sleep(3);
+                log.info(userId + "   续费成功!");
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+
+    /**
+     * 打印当前线程池的状态
+     */
+    public String printThreadPoolStatus() {
+        return String.format("core_size:%s,thread_current_size:%s;" +
+                        "thread_max_size:%s;queue_current_size:%s,total_task_count:%s", threadPoolExecutor.getCorePoolSize(),
+                threadPoolExecutor.getActiveCount(), threadPoolExecutor.getMaximumPoolSize(), threadPoolExecutor.getQueue().size(),
+                threadPoolExecutor.getTaskCount());
     }
 
     /**
